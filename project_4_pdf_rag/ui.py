@@ -19,4 +19,4 @@ with gr.Blocks(theme="default",title = brand_info["organizationName"]) as pdf_ap
     )
     
 if __name__ =="__main__":
-    pdf_app.launch()
+    pdf_app.launch(share=True)
